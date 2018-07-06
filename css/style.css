@@ -25,10 +25,13 @@ div {
   height: 6em;
   width: 100%;
   margin: auto;
+  font-family: serif;
+  font-size: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 h1 {
-  padding: 1em;
+  padding: 20px;
 }
 
 .baku {
@@ -53,9 +56,15 @@ h1 {
   margin-bottom: 2%;
 }
 
-@media screen and (min-width: 575px){
+@media screen and (min-width: 726px){
   .preview {
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 1%;
   }
 }
+
+@media screen and (min-width: 992px){
+  .preview {
+    width: 20%;
+    margin: 1%;
+  }
